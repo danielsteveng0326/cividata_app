@@ -1,90 +1,102 @@
-# PASOS DE INSTALACIÓN
+# 🌐 CiviData
 
-### CURSOS DE RESPALDO
+**CiviData** es una plataforma tecnológica diseñada para apoyar la **toma de decisiones públicas basadas en datos**. Nuestro objetivo es empoderar a los gobiernos locales con herramientas digitales modernas que faciliten el análisis, la transparencia y la participación ciudadana.
 
-| Nombre del Video | Enlace                                                                                    |
-| ---------------- |-------------------------------------------------------------------------------------------|
-| Curso de Python con Django de 0 a Máster | [Ver aquí](https://youtube.com/playlist?list=PLxm9hnvxnn-j5ZDOgQS63UIBxQytPdCG7 "Enlace") |
-| Curso de Deploy de un Proyecto Django en un VPS Ubuntu | [Ver aquí](https://youtube.com/playlist?list=PLxm9hnvxnn-hFNSoNrWM0LalFnSv5oMas "Enlace")           |
-| Curso de Python con Django Avanzado I | [Ver aquí](https://www.youtube.com/playlist?list=PLxm9hnvxnn-gvB0h0sEWjAf74ge4tkTOO "Enlace")       |
-| Curso de Python con Django Avanzado II | [Ver aquí](https://www.youtube.com/playlist?list=PLxm9hnvxnn-jL7Fqr-GL2iSPfgJ99BhEC "Enlace")       |
+---
 
-### INSTALADORES
+## 🚀 ¿Qué es CiviData?
 
-| Nombre        | Instalador                                                                                                                                                                                                                                           |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| Compilador    | [Python3](https://www.python.org/downloads/release/python-31011/ "Python3")                                                                                                                                                                                                                                |
-| IDE           | [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code"), [Sublime Text](https://www.sublimetext.com/ "Sublime Text"), [Pycharm](https://www.jetbrains.com/es-es/pycharm/download/#section=windows "Pycharm")                       |
-| Base de datos | [Sqlite Studio](https://github.com/pawelsalawa/sqlitestudio/releases "Sqlite Studio"), [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads "PostgreSQL"), [MySQL](https://www.apachefriends.org/es/index.html "MySQL") |
+CiviData es un ecosistema de soluciones digitales que combina el poder de la inteligencia artificial, la visualización de datos y el desarrollo web moderno para:
 
-### INSTALACIÓN DEL PROYECTO
+- Automatizar procesos de gestión pública.
+- Visualizar información territorial y sectorial.
+- Promover la transparencia en la ejecución del gasto público.
+- Fortalecer la relación entre el Estado y la ciudadanía.
 
-Clonamos el proyecto en nuestro directorio seleccionado
+---
 
-```bash
-git clone URL
+## 🛠️ Tecnologías usadas
+
+- **Python** (Back-end)
+- **Django** (Framework principal)
+- **PostgreSQL** (Base de datos)
+- **JavaScript** (Interactividad)
+- **Tailwind CSS** (Estilos)
+- **Reflex / React** (Front-end moderno)
+- **Inteligencia Artificial** (Módulos de análisis predictivo y asistentes conversacionales)
+
+---
+
+## 📦 Estructura del Proyecto
+
+```
+cividata/
+├── backend/           # Código fuente del backend (Django)
+├── frontend/          # Interfaz del usuario (React o Reflex)
+├── docs/              # Documentación técnica y administrativa
+├── config/            # Archivos de configuración y entorno
+└── README.md          # Este archivo
 ```
 
-Creamos nuestro entorno virtual para poder instalar las librerías del proyecto
+---
+
+## ⚙️ Cómo instalar
+
+1. Clona el repositorio:
+
+2. Configura tu entorno virtual:
 
 ```bash
-python3.10 -m venv venv o virtualenv venv -ppython3.10
-source venv/bin/active
+python -m venv venv
+source venv/bin/activate  # En Windows usa: venv\Scripts\activate
 ```
 
-Instalamos el complemento para la librería WEASYPRINT
-
-Si estas usando Windows debe descargar el complemento de [GTK3 installer](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases "GTK3 installer"). En algunas ocaciones se debe colocar en las variables de entorno como primera para que funcione y se debe reiniciar el computador.
-
-Si estas usando Linux debes instalar las [librerias](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#linux "librerias") correspondientes a la distribución que tenga instalado en su computador.
-
-Instalamos las librerías del proyecto
+3. Instala las dependencias:
 
 ```bash
-pip install -r deploy/txt/requirements.txt
+pip install -r requirements.txt
 ```
 
-Ejecutamos las migraciones para crear nuestra base de datos
+4. Aplica migraciones y corre el servidor:
 
 ```bash
-python manage.py makemigrations
 python manage.py migrate
+python manage.py runserver
 ```
 
-Creamos los datos iniciales para iniciar nuestro proyecto
+---
 
-```bash
-python manage.py start_installation
-python manage.py insert_test_data (Opcional)
-```
+## 📈 Módulos principales
 
-Iniciamos el servidor del proyecto
+- 🌍 **Geoportal**: Visualización territorial de datos.
+- 📊 **Observatorios**: Estadísticas en tiempo real sobre planes de desarrollo, agricultura, contratación y más.
+- 🤖 **IA para la gestión**: Asistentes virtuales especializados en formulación, contratación y evaluación.
+- 🧠 **Análisis Predictivo**: Modelos basados en aprendizaje automático para priorización de necesidades.
 
-```bash
-python manage.py runserver 0:8000 
-username: admin
-password: hacker94
-```
+---
 
-# Gracias por adquirir mi producto ✅🙏
+## 🧩 Roadmap
 
-#### Esto me sirve mucho para seguir produciendo mi contenido 🤗​
+- [x] MVP funcional
+- [ ] Implementación de dashboards interactivos
+- [ ] Integración con SECOP II y plataformas del DNP
+- [ ] Módulo de participación ciudadana en tiempo real
+- [ ] Versión móvil progresiva (PWA)
 
-### ¡Apóyame! para seguir haciéndolo siempre 😊👏
+---
 
-Paso la mayor parte de mi tiempo creando contenido y ayudando a futuros programadores sobre el desarrollo web con tecnología open source.
+## 🤝 Contribuciones
 
-🤗💪¡Muchas Gracias!💪🤗
+¡Tu ayuda es bienvenida! Si deseas colaborar, abre un issue, sugiere una mejora o envía un pull request. Toda contribución que fortalezca el gobierno digital y la gestión pública será bienvenida.
 
-**Puedes apoyarme de la siguiente manera.**
+---
 
-**Suscribiéndote**
-https://www.youtube.com/c/AlgoriSoft?sub_confirmation=1
+## 📄 Licencia
 
-**Siguiendo**
-https://www.facebook.com/algorisoft
+Este proyecto está bajo la Licencia MIT. Revisa el archivo `LICENSE` para más detalles.
 
-**Donando por PayPal**
-williamjair94@hotmail.com
+---
 
-***AlgoriSoft te desea lo mejor en tu aprendizaje y crecimiento profesional como programador 🤓.***
+## 💡 Créditos
+
+**CiviData** es desarrollado por **Daniel Steven González** como parte del proyecto **TerriGov**, con el compromiso de modernizar la gestión pública en Colombia y América Latina.
