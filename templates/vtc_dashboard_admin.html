@@ -1,0 +1,238 @@
+{% extends 'skin.html' %}
+{% load static %}
+{% block assets_body %}
+    <script src="{% static 'lib/highcharts-9.1.1/highcharts.js' %}" type="text/javascript"></script>
+    <script src="{% static 'lib/highcharts-9.1.1/highcharts-3d.js' %}" type="text/javascript"></script>
+    <script src="{% static 'lib/highcharts-9.1.1/modules/exporting.js' %}" type="text/javascript"></script>
+    <script src="{% static 'lib/highcharts-9.1.1/modules/data.js' %}" type="text/javascript"></script>
+    <script src="{% static 'lib/highcharts-9.1.1/modules/drilldown.js' %}" type="text/javascript"></script>
+{% endblock %}
+
+{% block breadcrumb %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-danger"><i class="fas fa-box"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Cargos</span>
+                        <span class="info-box-number">{{ positions }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-success"><i class="fas fa-truck"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Areas</span>
+                        <span class="info-box-number">{{ areas }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-warning"><i class="fas fa-truck-loading"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Rubros</span>
+                        <span class="info-box-number">{{ headings }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-info"><i class="fas fa-user-friends"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Empleados</span>
+                        <span class="info-box-number">{{ employees }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header border-transparent">
+                        <h3 class="card-title"><i class="fas fa-hand-holding-usd"></i> Los 10 Últimos Salarios</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table m-0">
+                                <thead>
+                                <tr>
+                                    <th>Empleado</th>
+                                    <th>Año/Mes</th>
+                                    <th>Ingresos</th>
+                                    <th>Egresos</th>
+                                    <th>Total a recibir</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for detail in salaries %}
+                                    <tr>
+                                        <td>{{ detail.employee.user.names }}</td>
+                                        <td>{{ detail.salary.year }}/{{ detail.salary.month }}</td>
+                                        <td>${{ detail.income|floatformat:2 }}</td>
+                                        <td>${{ detail.expenses|floatformat:2 }}</td>
+                                        <td>${{ detail.total_amount|floatformat:2 }}</td>
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-dollar-sign"></i> Rubros por Áreas del mes de {{ month }} del año {{ year }}</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div id="graph-monthly-salary-by-area" style="height: 64vh;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-calendar-check"></i> Salarios del año {{ year }}
+                        </h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="container-fluid p-3" id="graph-yearly-total-salary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="application/javascript">
+            var chart = {
+                getMonthlySalaryByArea: function () {
+                    execute_ajax_request({
+                        'params': {
+                            'action': 'get_monthly_salary_by_area'
+                        },
+                        'loading': false,
+                        'success': function (request) {
+                            Highcharts.chart('graph-monthly-salary-by-area', {
+                                chart: {
+                                    type: 'pie',
+                                    options3d: {
+                                        enabled: true,
+                                        alpha: 45,
+                                        beta: 0
+                                    }
+                                },
+                                exporting: {
+                                    enabled: false
+                                },
+                                title: {
+                                    text: ''
+                                },
+                                accessibility: {
+                                    point: {
+                                        valueSuffix: '%'
+                                    }
+                                },
+                                tooltip: {
+                                    pointFormat: 'Stock: <b>{point.y:.0f} Unidades</b>'
+                                },
+                                plotOptions: {
+                                    pie: {
+                                        allowPointSelect: true,
+                                        cursor: 'pointer',
+                                        depth: 35,
+                                        dataLabels: {
+                                            enabled: true,
+                                            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                                        }
+                                    }
+                                },
+                                series: [{
+                                    'name': 'Salarios por Áreas',
+                                    'type': 'pie',
+                                    'colorByPoint': true,
+                                    'data': request,
+                                }]
+                            });
+                        }
+                    });
+                },
+                getYearlyTotalSalary: function () {
+                    execute_ajax_request({
+                        'params': {
+                            'action': 'get_yearly_total_salary'
+                        },
+                        'loading': false,
+                        'success': function (request) {
+                            Highcharts.chart('graph-yearly-total-salary', {
+                                title: {
+                                    text: ''
+                                },
+                                subtitle: {
+                                    text: ''
+                                },
+                                exporting: {
+                                    enabled: false
+                                },
+                                xAxis: {
+                                    categories: [
+                                        'Enero',
+                                        'Febrero',
+                                        'Marzo',
+                                        'Abril',
+                                        'Mayo',
+                                        'Junio',
+                                        'Julio',
+                                        'Agosto',
+                                        'Septiembre',
+                                        'Octubre',
+                                        'Noviembre',
+                                        'Diciembre'
+                                    ],
+                                    crosshair: true
+                                },
+                                yAxis: {
+                                    min: 0,
+                                    title: {
+                                        text: 'Valores $'
+                                    }
+                                },
+                                tooltip: {
+                                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                                    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                                        '<td style="padding:0"><b>${point.y:.2f}</b></td></tr>',
+                                    footerFormat: '</table>',
+                                    shared: true,
+                                    useHTML: true
+                                },
+                                plotOptions: {
+                                    column: {
+                                        pointPadding: 0.2,
+                                        borderWidth: 0
+                                    }
+                                },
+                                series: [{
+                                    type: 'column',
+                                    colorByPoint: true,
+                                    data: request,
+                                    showInLegend: false
+                                }]
+                            });
+                        }
+                    });
+                }
+            };
+            $(function () {
+                chart.getMonthlySalaryByArea();
+                chart.getYearlyTotalSalary();
+            });
+        </script>
+    </div>
+{% endblock %}

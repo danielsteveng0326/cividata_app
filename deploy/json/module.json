@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Tipos de Módulos",
+    "url": "/security/module/type/",
+    "icon": "fas fa-door-open",
+    "description": "Permite administrar los tipos de módulos del sistema",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_module_type",
+      "add_module_type",
+      "change_module_type",
+      "delete_module_type"
+    ]
+  },
+  {
+    "name": "Módulos",
+    "url": "/security/module/",
+    "icon": "fas fa-th-large",
+    "description": "Permite administrar los módulos del sistema",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_module",
+      "add_module",
+      "change_module",
+      "delete_module"
+    ]
+  },
+  {
+    "name": "Grupos",
+    "url": "/security/group/",
+    "icon": "fas fa-users",
+    "description": "Permite administrar los grupos de usuarios del sistema",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_group",
+      "add_group",
+      "change_group",
+      "delete_group"
+    ]
+  },
+  {
+    "name": "Conf. Dashboard",
+    "url": "/security/dashboard/update/",
+    "icon": "fas fa-tools",
+    "description": "Permite configurar los datos de la plantilla",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_dashboard"
+    ]
+  },
+  {
+    "name": "Accesos",
+    "url": "/security/user/access/",
+    "icon": "fas fa-user-secret",
+    "description": "Permite administrar los accesos de los usuarios",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_user_access",
+      "add_user_access",
+      "delete_user_access"
+    ]
+  },
+  {
+    "name": "Usuarios",
+    "url": "/user/",
+    "icon": "fas fa-user",
+    "description": "Permite administrar a los administradores del sistema",
+    "moduletype_id": 1,
+    "permissions": [
+      "view_user",
+      "add_user",
+      "change_user",
+      "delete_user"
+    ]
+  },
+  {
+    "name": "Cambiar password",
+    "url": "/user/update/password/",
+    "icon": "fas fa-key",
+    "description": "Permite cambiar tu password de tu cuenta",
+    "moduletype_id": null,
+    "permissions": []
+  },
+  {
+    "name": "Editar perfil",
+    "url": "/user/update/profile/",
+    "icon": "fas fa-user",
+    "description": "Permite cambiar la información de tu cuenta",
+    "moduletype_id": null,
+    "permissions": []
+  },
+  {
+    "name": "Areas",
+    "url": "/rrhh/area/",
+    "icon": "fas fa-layer-group",
+    "description": "Permite administrar las áreas del sistema",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_area",
+      "add_area",
+      "change_area",
+      "delete_area"
+    ]
+  },
+  {
+    "name": "Cargos",
+    "url": "/rrhh/position/",
+    "icon": "fas fa-id-badge",
+    "description": "Permite administrar los cargos del sistema",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_position",
+      "add_position",
+      "change_position",
+      "delete_position"
+    ]
+  },
+  {
+    "name": "Rubros",
+    "url": "/rrhh/heading/",
+    "icon": "fas fa-percent",
+    "description": "Permite administrar los rubros del sistema",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_heading",
+      "add_heading",
+      "change_heading",
+      "delete_heading"
+    ]
+  },
+  {
+    "name": "Asistencias",
+    "url": "/rrhh/assistance/",
+    "icon": "fa-solid fa-calendar-check",
+    "description": "Permite administrar las asistencias de los empleados",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_assistance_admin",
+      "add_assistance_admin",
+      "change_assistance_admin",
+      "delete_assistance_admin"
+    ]
+  },
+  {
+    "name": "Empleados",
+    "url": "/rrhh/employee/",
+    "icon": "fas fa-user-clock",
+    "description": "Permite administrar los rubros del sistema",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_employee",
+      "add_employee",
+      "change_employee",
+      "delete_employee"
+    ]
+  },
+  {
+    "name": "Compañia",
+    "url": "/rrhh/company/update/",
+    "icon": "fas fa-building",
+    "description": "Permite gestionar la información de la compañia",
+    "moduletype_id": 2,
+    "permissions": [
+      "change_company"
+    ]
+  },
+  {
+    "name": "Salarios",
+    "url": "/rrhh/salary/",
+    "icon": "fas fa-hand-holding-usd",
+    "description": "Permite administrar los salarios del sistema",
+    "moduletype_id": 2,
+    "permissions": [
+      "view_salary_admin",
+      "add_salary_admin",
+      "change_salary_admin",
+      "delete_salary_admin",
+      "print_salary"
+    ]
+  },
+  {
+    "name": "Editar perfil",
+    "url": "/rrhh/employee/update/profile/",
+    "icon": "fas fa-user",
+    "description": "Permite cambiar la información de tu cuenta",
+    "moduletype_id": null,
+    "permissions": []
+  },
+  {
+    "name": "Salarios",
+    "url": "/rrhh/salary/employee/",
+    "icon": "fas fa-file-invoice-dollar",
+    "description": "Permite ver a los empleados sus salarios",
+    "moduletype_id": null,
+    "permissions": [
+      "view_salary_employee",
+      "print_salary"
+    ]
+  },
+  {
+    "name": "Asistencias",
+    "url": "/rrhh/assistance/employee/",
+    "icon": "fas fa-calendar-check",
+    "description": "Permite ver a los empleados sus asistencias",
+    "moduletype_id": null,
+    "permissions": [
+      "view_assistance_employee"
+    ]
+  }
+]

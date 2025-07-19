@@ -1,0 +1,296 @@
+[
+  {
+    "name": "RECURSOS HUMANOS"
+  },
+  {
+    "name": "GERENCIA INDUSTRIAL"
+  },
+  {
+    "name": "EMBARQUE"
+  },
+  {
+    "name": "DESPOSTADA"
+  },
+  {
+    "name": "PCP"
+  },
+  {
+    "name": "GRASERIA"
+  },
+  {
+    "name": "CONTROL DE STOCK"
+  },
+  {
+    "name": "CONTABILIDAD"
+  },
+  {
+    "name": "AUDITORIA"
+  },
+  {
+    "name": "SALA DE MAQUINAS"
+  },
+  {
+    "name": "AREA TECNICA"
+  },
+  {
+    "name": "CONTROL DE CALIDAD"
+  },
+  {
+    "name": "ASUNCION"
+  },
+  {
+    "name": "APARTADOS"
+  },
+  {
+    "name": "LAVADERO"
+  },
+  {
+    "name": "IVO"
+  },
+  {
+    "name": "TRIPERIA"
+  },
+  {
+    "name": "ELECTRICA"
+  },
+  {
+    "name": "LIMPIEZA INDUSTRIAL"
+  },
+  {
+    "name": "EMPAQUE SECUNDARIO"
+  },
+  {
+    "name": "FAENA"
+  },
+  {
+    "name": "FORMACIÓN PROFESIONAL FAENA"
+  },
+  {
+    "name": "LAVANDERIA"
+  },
+  {
+    "name": "SALA DE CUARTEO"
+  },
+  {
+    "name": "CORRAL"
+  },
+  {
+    "name": "SALA DE CUERO"
+  },
+  {
+    "name": "MENUDENCIAS"
+  },
+  {
+    "name": "MONDONGUERIA"
+  },
+  {
+    "name": "COMEDOR"
+  },
+  {
+    "name": "BIENESTAR ANIMAL"
+  },
+  {
+    "name": "FORMACIÓN PROFESIONAL DESPOSTADA"
+  },
+  {
+    "name": "CALDERA"
+  },
+  {
+    "name": "EMPAQUE PRIMARIO"
+  },
+  {
+    "name": "PTE"
+  },
+  {
+    "name": "Aux Producion"
+  },
+  {
+    "name": "Limpiador"
+  },
+  {
+    "name": "PATIO"
+  },
+  {
+    "name": "INFORMATICA"
+  },
+  {
+    "name": "COMPRAS"
+  },
+  {
+    "name": "PTA"
+  },
+  {
+    "name": "MECANICO"
+  },
+  {
+    "name": "CIVIL"
+  },
+  {
+    "name": "RECURSOS HUMANOS - 52"
+  },
+  {
+    "name": "GERENCIA INDUSTRIAL - 20"
+  },
+  {
+    "name": "DESPOSTADA - 30"
+  },
+  {
+    "name": "EMBARQUE - 34"
+  },
+  {
+    "name": "EMPAQUE PRIMARIO - 32"
+  },
+  {
+    "name": "MENUDENCIAS - 27"
+  },
+  {
+    "name": "LIMPIEZA INDUSTRIAL - 15"
+  },
+  {
+    "name": "SALA DE CUARTEO - 29"
+  },
+  {
+    "name": "FAENA - 26"
+  },
+  {
+    "name": "PCP - 45"
+  },
+  {
+    "name": "GRASERIA - 41"
+  },
+  {
+    "name": "FINANCIERO - 47"
+  },
+  {
+    "name": "LIMPIEZA ADMINISTRATIVA - 46"
+  },
+  {
+    "name": "RECEPCION - 72"
+  },
+  {
+    "name": "COMPRAS - 38"
+  },
+  {
+    "name": "CONTROL DE STOCK - 71"
+  },
+  {
+    "name": "CONTABILIDAD - 48"
+  },
+  {
+    "name": "AUDITORIA - 50"
+  },
+  {
+    "name": "AREA TECNICA - 57"
+  },
+  {
+    "name": "ELECTRICA - 58"
+  },
+  {
+    "name": "CIVIL - 59"
+  },
+  {
+    "name": "MECANICO - 60"
+  },
+  {
+    "name": "SALA DE MAQUINAS - 61"
+  },
+  {
+    "name": "UTILIDADES - 83"
+  },
+  {
+    "name": "PATIO - 62"
+  },
+  {
+    "name": "PTE - 43"
+  },
+  {
+    "name": "CALDERA - 40"
+  },
+  {
+    "name": "DEPARTAMENTO MEDICO - 53"
+  },
+  {
+    "name": "SEGURIDAD OCUPACIONAL - 54"
+  },
+  {
+    "name": "TRANSPORTE - 51"
+  },
+  {
+    "name": "PORTERIA - 21"
+  },
+  {
+    "name": "EMPAQUE SECUNDARIO - 32"
+  },
+  {
+    "name": "MONDONGUERIA - 28"
+  },
+  {
+    "name": "PTA - 44"
+  },
+  {
+    "name": "INFORMATICA - 64"
+  },
+  {
+    "name": "CONTROL DE CALIDAD - 39"
+  },
+  {
+    "name": "LABORATORIO - 42"
+  },
+  {
+    "name": "LAVANDERIA - 16"
+  },
+  {
+    "name": "COMEDOR - 19"
+  },
+  {
+    "name": "ASUNCION - 67"
+  },
+  {
+    "name": "SALA DE ROLDANA - 84"
+  },
+  {
+    "name": "FORMACIÓN PROFESIONAL DESPOSTADA - 81"
+  },
+  {
+    "name": "CORRAL - 24"
+  },
+  {
+    "name": "LAVADERO - 23"
+  },
+  {
+    "name": "SALA DE CUERO - 76"
+  },
+  {
+    "name": "APARTADOS - 79"
+  },
+  {
+    "name": "FORMACIÓN PROFESIONAL FAENA - 80"
+  },
+  {
+    "name": "IVO - 66"
+  },
+  {
+    "name": "REUBICACION LAVANDERIA - 85"
+  },
+  {
+    "name": "EMPAQUE PRIMARIO - 31"
+  },
+  {
+    "name": "BIENESTAR ANIMAL - 82"
+  },
+  {
+    "name": "TRIPERIA - 56"
+  },
+  {
+    "name": "DESPOSTADA - 31"
+  },
+  {
+    "name": "MENUDENCIAS - 28"
+  },
+  {
+    "name": "CARNICERIA - 63"
+  },
+  {
+    "name": "Reubicación Despostada - 86"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Seguridad",
+    "icon": "fas fa-lock"
+  },
+  {
+    "name": "Recursos Humanos",
+    "icon": "fas fa-users"
+  }
+]

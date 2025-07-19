@@ -1,0 +1,146 @@
+[
+  {
+    "name": "SALARIO",
+    "item_type": "haberes",
+    "order": 1,
+    "has_quantity": true
+  },
+  {
+    "name": "REEMBOLSO",
+    "item_type": "haberes",
+    "order": 2,
+    "has_quantity": false
+  },
+  {
+    "name": "MOVILIZACION",
+    "item_type": "haberes",
+    "order": 3,
+    "has_quantity": false
+  },
+  {
+    "name": "DECIMO TERCERO MENSUAL",
+    "item_type": "haberes",
+    "order": 4,
+    "has_quantity": false
+  },
+  {
+    "name": "DECIMO CUARTO MENSUAL",
+    "item_type": "haberes",
+    "order": 5,
+    "has_quantity": false
+  },
+  {
+    "name": "BONIFICACION",
+    "item_type": "haberes",
+    "order": 6,
+    "has_quantity": false
+  },
+  {
+    "name": "HORAS NOCTURNAS",
+    "item_type": "haberes",
+    "order": 7,
+    "has_quantity": true
+  },
+  {
+    "name": "HORAS SUPLEMENTARIAS",
+    "item_type": "haberes",
+    "order": 8,
+    "has_quantity": true
+  },
+  {
+    "name": "HORAS EXTRAORDINARIAS",
+    "item_type": "haberes",
+    "order": 9,
+    "has_quantity": true
+  },
+  {
+    "name": "OTROS INGRESOS",
+    "item_type": "haberes",
+    "order": 10,
+    "has_quantity": false
+  },
+  {
+    "name": "PRESTAMO A LA EMPRESA",
+    "item_type": "descuentos",
+    "order": 1,
+    "has_quantity": false
+  },
+  {
+    "name": "PRESTAMO HIPOTECARIO",
+    "item_type": "descuentos",
+    "order": 2,
+    "has_quantity": false
+  },
+  {
+    "name": "PRESTAMO QUIROGRAFARIO",
+    "item_type": "descuentos",
+    "order": 3,
+    "has_quantity": false
+  },
+  {
+    "name": "OTROS DESCUENTOS",
+    "item_type": "descuentos",
+    "order": 4,
+    "has_quantity": false
+  },
+  {
+    "name": "PRESTAMO BANCO",
+    "item_type": "descuentos",
+    "order": 5,
+    "has_quantity": false
+  },
+  {
+    "name": "CREDITO DEVIES",
+    "item_type": "descuentos",
+    "order": 6,
+    "has_quantity": false
+  },
+  {
+    "name": "EXTENSION DE SALUD",
+    "item_type": "descuentos",
+    "order": 7,
+    "has_quantity": false
+  },
+  {
+    "name": "IMPUESTO A LA RENTA",
+    "item_type": "descuentos",
+    "order": 8,
+    "has_quantity": false
+  },
+  {
+    "name": "CREDITO FARMACIA",
+    "item_type": "descuentos",
+    "order": 9,
+    "has_quantity": false
+  },
+  {
+    "name": "ANTICIPO DE SUELDOS",
+    "item_type": "descuentos",
+    "order": 10,
+    "has_quantity": false
+  },
+  {
+    "name": "RETENCION JUDICIAL",
+    "item_type": "descuentos",
+    "order": 11,
+    "has_quantity": false
+  },
+  {
+    "name": "APORTE DEL IESS",
+    "item_type": "descuentos",
+    "order": 12,
+    "has_quantity": false
+  },
+  {
+    "name": "ALIMENTACION",
+    "item_type": "descuentos",
+    "order": 13,
+    "has_quantity": false
+  },
+  {
+    "name": "SUBSIDIOS",
+    "item_type": "descuentos",
+    "order": 15,
+    "has_quantity": false
+  }
+]

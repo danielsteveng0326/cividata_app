@@ -1,0 +1,21 @@
+{% extends 'form.html' %}
+{% load static %}
+{% load rrhh_extras %}
+{% block assets_form %}
+    <script src="{% static 'company/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    {% for fields in form|split_form_fields:2 %}
+        <div class="row g-3">
+            {% for field in fields %}
+                <div class="col">
+                    <div class="form-group">
+                        <label for="{{ field.label }}">{{ field.label }}:</label>
+                        {{ field }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

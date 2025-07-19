@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Analista de ByS"
+  },
+  {
+    "name": "Gerente Industrial"
+  },
+  {
+    "name": "Coordinador"
+  },
+  {
+    "name": "Supervisor"
+  },
+  {
+    "name": "Encargado de PCP"
+  },
+  {
+    "name": "Contador"
+  },
+  {
+    "name": "Auditoria"
+  },
+  {
+    "name": "Auxi.Sala de Maquina"
+  },
+  {
+    "name": "Operador"
+  },
+  {
+    "name": "Gerente G de Calidad"
+  },
+  {
+    "name": "ASISTENTE DIRECTORIO"
+  },
+  {
+    "name": "Cuchillero 1"
+  },
+  {
+    "name": "Aux Producion"
+  },
+  {
+    "name": "Asistente de RRHH"
+  },
+  {
+    "name": "Balancero 1"
+  },
+  {
+    "name": "Cuchillero Faena 2"
+  },
+  {
+    "name": "Cuchillero Faena 1"
+  },
+  {
+    "name": "Auxi/lavanderia"
+  },
+  {
+    "name": "Entrenador"
+  },
+  {
+    "name": "Corrallero"
+  },
+  {
+    "name": "Cuchillero 2"
+  },
+  {
+    "name": "Cuchillero/Menuden 2"
+  },
+  {
+    "name": "Clasificador"
+  },
+  {
+    "name": "Serruchero"
+  },
+  {
+    "name": "Lombador A"
+  },
+  {
+    "name": "Auxi/Cocina"
+  },
+  {
+    "name": "Despostador 2"
+  },
+  {
+    "name": "Limpiador"
+  },
+  {
+    "name": "Cocinera 3"
+  },
+  {
+    "name": "Balancero 2"
+  },
+  {
+    "name": "Cocinera 1"
+  },
+  {
+    "name": "LIDER BIENESTAR ANIM"
+  },
+  {
+    "name": "Despostador 1"
+  },
+  {
+    "name": "Operador 2"
+  },
+  {
+    "name": "Recibidor"
+  },
+  {
+    "name": "Operador 1"
+  },
+  {
+    "name": "Planillero/A"
+  },
+  {
+    "name": "Chofer"
+  },
+  {
+    "name": "LIMPIADORA"
+  },
+  {
+    "name": "Auxi.Control/Calidad"
+  },
+  {
+    "name": "Lider 2"
+  },
+  {
+    "name": "Analista de Salarios"
+  },
+  {
+    "name": "GRASERIA"
+  },
+  {
+    "name": "LIMPIEZA INDUSTRIAL"
+  },
+  {
+    "name": "EMBARQUE"
+  },
+  {
+    "name": "DESPOSTADA"
+  },
+  {
+    "name": "EMPAQUE SECUNDARIO"
+  },
+  {
+    "name": "Aux Caldera"
+  },
+  {
+    "name": "Aux de informatica"
+  },
+  {
+    "name": "Lider 1"
+  },
+  {
+    "name": "Asistente de PCP"
+  },
+  {
+    "name": "Analista de PCP"
+  },
+  {
+    "name": "Mecanico"
+  },
+  {
+    "name": "Albanil-Pedreiro"
+  },
+  {
+    "name": "TRACTORISTA"
+  },
+  {
+    "name": "Electricista"
+  },
+  {
+    "name": "Analista de ByS - 182"
+  },
+  {
+    "name": "Analista RR.HH - 10"
+  },
+  {
+    "name": "Gerente Industrial - 158"
+  },
+  {
+    "name": "Coordinador - 159"
+  },
+  {
+    "name": "Supervisor 2 - 202"
+  },
+  {
+    "name": "Supervisor 1 - 9"
+  },
+  {
+    "name": "Supervisor 3 - 203"
+  },
+  {
+    "name": "Lider 3 - 188"
+  },
+  {
+    "name": "Gerente Financero - 96"
+  },
+  {
+    "name": "Copera - 214"
+  },
+  {
+    "name": "RECEPCIONISTA - 171"
+  },
+  {
+    "name": "Cuchillero 2 - 122"
+  },
+  {
+    "name": "Encargado de Consumo"
+  },
+  {
+    "name": "Analista de Contabil - 212"
+  },
+  {
+    "name": "Auditoria - 168"
+  },
+  {
+    "name": "Aux Trazabilidad - 206"
+  },
+  {
+    "name": "PCM - 209"
+  },
+  {
+    "name": "Lider 1 - 119"
+  },
+  {
+    "name": "Electricista - 156"
+  },
+  {
+    "name": "Albanil-Pedreiro - 157"
+  },
+  {
+    "name": "Mecanico - 130"
+  },
+  {
+    "name": "Operador Sala de Maq - 205"
+  },
+  {
+    "name": "TRACTORISTA - 172"
+  },
+  {
+    "name": "Operador 3 - 114"
+  },
+  {
+    "name": "Aux Caldera - 95"
+  },
+  {
+    "name": "Auxiliar - 91"
+  },
+  {
+    "name": "MEDICO - 170"
+  },
+  {
+    "name": "Enfermera - 183"
+  },
+  {
+    "name": "Planillero/A - 134"
+  },
+  {
+    "name": "Chofer - 153"
+  },
+  {
+    "name": "Auxiliar de Báscula - 191"
+  },
+  {
+    "name": "Clasificador - 160"
+  },
+  {
+    "name": "Gerente de Compras - 195"
+  },
+  {
+    "name": "Operador Caldera - 204"
+  },
+  {
+    "name": "Aux de informatica - 184"
+  },
+  {
+    "name": "Gerente G de Calidad - 178"
+  },
+  {
+    "name": "Lider 2 - 120"
+  },
+  {
+    "name": "Cocinera 1 - 180"
+  },
+  {
+    "name": "Portero - 196"
+  },
+  {
+    "name": "Encargado de Compras - 94"
+  },
+  {
+    "name": "ASISTENTE DIRECTORIO - 167"
+  },
+  {
+    "name": "Encargado Contabilid - 211"
+  },
+  {
+    "name": "Lider Deposito - 210"
+  },
+  {
+    "name": "Balancero 2 - 97"
+  },
+  {
+    "name": "Balancero 1 - 98"
+  },
+  {
+    "name": "Balancero 3 - 115"
+  },
+  {
+    "name": "Limpiador - 129"
+  },
+  {
+    "name": "Operador 1 - 116"
+  },
+  {
+    "name": "Operador 2 - 117"
+  },
+  {
+    "name": "Analist Trazabilidad - 161"
+  },
+  {
+    "name": "Cuchillero Faena 2 - 137"
+  },
+  {
+    "name": "Cuchillero Faena 1 - 92"
+  },
+  {
+    "name": "Corralero - 132"
+  },
+  {
+    "name": "Cuchillero/Menuden 1 - 135"
+  },
+  {
+    "name": "Cuchillero 1 - 121"
+  },
+  {
+    "name": "Despostador 2 - 145"
+  },
+  {
+    "name": "Cocinera 2 - 179"
+  },
+  {
+    "name": "Monitor 2 - 127"
+  },
+  {
+    "name": "Recibidor 1 - 176"
+  },
+  {
+    "name": "Despostador 1 - 99"
+  },
+  {
+    "name": "Lombador 2 - 181"
+  },
+  {
+    "name": "Serruchero 4 - 201"
+  },
+  {
+    "name": "Cuchillero Faena 3"
+  },
+  {
+    "name": "Serruchero/faena 2 - 142"
+  },
+  {
+    "name": "Lider 4 - 198"
+  },
+  {
+    "name": "Asist de Laboratorio - 197"
+  },
+  {
+    "name": "Auxi.Control/Calidad - 125"
+  },
+  {
+    "name": "Etiquetero - 186"
+  },
+  {
+    "name": "Asistente de PCP - 190"
+  },
+  {
+    "name": "Montacarguista 1 - 133"
+  },
+  {
+    "name": "Serruchero 2 - 200"
+  },
+  {
+    "name": "Recibidor 2 - 207"
+  },
+  {
+    "name": "Camarista - 199"
+  },
+  {
+    "name": "Auxiliar IVO 2 - 215"
+  },
+  {
+    "name": "Serruchero 1 - 177"
+  },
+  {
+    "name": "Montacarguista 2 - 217"
+  },
+  {
+    "name": "Auxiliar IVO 1 - 218"
+  },
+  {
+    "name": "Asistente de RRHH - 93"
+  },
+  {
+    "name": "Conferente - 189"
+  },
+  {
+    "name": "Analista de PCP - 208"
+  },
+  {
+    "name": "Gerente mantenimient - 194"
+  },
+  {
+    "name": "Aux. Cuchillera/o - 219"
+  },
+  {
+    "name": "Monitor 1 - 126"
+  },
+  {
+    "name": "Auxiliar Despostador - 220"
+  },
+  {
+    "name": "AUX. FINANCIERO - 174"
+  },
+  {
+    "name": "Supervisor Informat - 213"
+  },
+  {
+    "name": "Analista de Salarios - 193"
+  },
+  {
+    "name": "Auxiliar - 92"
+  },
+  {
+    "name": "Encargado Carnicería - 162"
+  },
+  {
+    "name": "Vendedor - 7"
+  },
+  {
+    "name": "Montacarguista - 133"
+  },
+  {
+    "name": "Auxiliar IVO - 215"
+  },
+  {
+    "name": "Entrenador - 192"
+  },
+  {
+    "name": "Aux. produccion - 216"
+  },
+  {
+    "name": "Encargado de Consumo - 221"
+  },
+  {
+    "name": "Balancero 3"
+  }
+]
