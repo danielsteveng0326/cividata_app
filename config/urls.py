@@ -30,5 +30,12 @@ urlpatterns = [
     path('', DashboardView.as_view(), name='dashboard'),
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Servir archivos estáticos y media en CUALQUIER modo (no solo DEBUG)
+# Esto es necesario para el servidor de desarrollo en producción ligera
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Alternativa: Mantener la configuración original pero asegurar DEBUG=True
+# if settings.DEBUG:
+#     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+#     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
