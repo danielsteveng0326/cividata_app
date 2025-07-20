@@ -140,7 +140,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-ec'
 
-TIME_ZONE = 'US/Pacific'
+TIME_ZONE = 'America/Bogota'
 
 USE_I18N = True
 
